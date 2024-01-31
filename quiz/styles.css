@@ -1,0 +1,15 @@
+body{
+    padding: 20px;
+}
+
+label{
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: bisque;
+    background-color: beige;
+}
+
+#alfa:checked:before #beta:checked:before #gamma:checked:before{
+    background-color: aquamarine;
+}

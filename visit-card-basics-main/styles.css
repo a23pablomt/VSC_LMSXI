@@ -1,0 +1,22 @@
+body{
+    background-color: #FAA748;
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    font-family: 'Agbalumo', sans-serif;
+}
+
+article{
+    text-align: center;
+    color: #6793A5;
+}
+img{
+    width: 200px;
+    border-radius: 50px;
+    border: 10px solid #6793A5;
+}
+
+button{
+    
+}

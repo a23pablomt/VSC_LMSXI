@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA Compatible" content="IE-edge">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>T-Shirt</title>
+    </head>
+
+    <body>
+        <article>
+            <label for="size">Size:</label>
+            <select class="form-select" id="size" >
+                <option value="0">S</option>
+                <option value="1">M</option>
+                <option value="2">L</option>
+                <option value="3">XL</option>
+                <option value="4">XXL</option>
+            </select>
+            <label for="colour">Colour:</label>
+            <select class="form-select" id="colour" >
+                <option value="0">Red</option>
+                <option value="1">Black</option>
+                <option value="2">Green</option>
+                <option value="3">Blue</option>
+                <option value="4">White</option>
+            </select>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity">
+            <form>
+                <button onclick=buy()>Buy</button>
+            </form>
+            <h2 id="par"></h2>
+        </article>
+        
+    </body>
+</html>

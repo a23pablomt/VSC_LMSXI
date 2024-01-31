@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA Compatible" content="IE-edge">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <title>Basket Calculator</title>
+    </head>
+
+    <body>
+        <h1>Basketball Calculator</h1>
+        <article>
+            <img src="./img/basketball-court.jpeg" alt="Basketball Court">
+            <article>
+                <p> 1 point baskets <input type="text" id="onePoint" min="0"></p>
+                <p> 2 point baskets <input type="text" id="twoPoint" min="0"></p>
+                <p> 3 point baskets <input type="text" id="threePoint" min="0"></p>
+                <form>
+                    <button onclick=calc()>Calculate</button>
+                    <button onclick=reset()>Reset</button>
+                </form>
+                <h2>Total:</h2>
+                <h2 id="par">0</h2>
+            </article>
+        </article>
+        
+    </body>
+</html>
